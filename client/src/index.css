@@ -1,0 +1,64 @@
+/* Universal Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif; /* Adjust to your default font */
+  background-color: transparent;
+}
+
+/* Removing default list styling */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default table borders and spacing */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove default input, button, and textarea styles */
+input,
+button,
+textarea {
+  outline: none;
+  border: none;
+  background: none;
+  padding: 0;
+  font: inherit;
+}
+
+/* Remove text-decoration from links */
+a {
+  text-decoration: none;
+  color: inherit; /* Optional: remove default link color */
+}
+
+/* Reset images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ensures full height for elements */
+html {
+  height: 100%;
+}
+
+/* Ensure body takes up at least the full height */
+body {
+  min-height: 100%;
+}
+
+/* Remove vertical scrollbar on the body */
+body {
+  overflow-x: hidden;
+}
