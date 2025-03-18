@@ -1,4 +1,9 @@
+import { useNavigate, useParams } from "react-router";
+
 export default function GameEdit() {
+    const navigate = useNavigate();
+    const { gameId } = useParams();
+
     return (
         <section id="edit-page" className="auth">
             <form id="edit">
